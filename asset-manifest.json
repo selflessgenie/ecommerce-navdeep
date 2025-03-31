@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fashion-site/static/css/main.7b75d9d7.css",
-    "main.js": "/fashion-site/static/js/main.82d8dcb5.js",
+    "main.js": "/fashion-site/static/js/main.d9a240e3.js",
     "static/js/488.e75445ad.chunk.js": "/fashion-site/static/js/488.e75445ad.chunk.js",
     "static/media/banner_women.png": "/fashion-site/static/media/banner_women.5a27fc4e4533e57e4676.png",
     "static/media/hero_image_saree.png": "/fashion-site/static/media/hero_image_saree.8dd0beb722a93d0fb4e4.png",
@@ -33,11 +33,11 @@
     "static/media/hand_icon.png": "/fashion-site/static/media/hand_icon.9c7487cecb600f30901b.png",
     "index.html": "/fashion-site/index.html",
     "main.7b75d9d7.css.map": "/fashion-site/static/css/main.7b75d9d7.css.map",
-    "main.82d8dcb5.js.map": "/fashion-site/static/js/main.82d8dcb5.js.map",
+    "main.d9a240e3.js.map": "/fashion-site/static/js/main.d9a240e3.js.map",
     "488.e75445ad.chunk.js.map": "/fashion-site/static/js/488.e75445ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b75d9d7.css",
-    "static/js/main.82d8dcb5.js"
+    "static/js/main.d9a240e3.js"
   ]
 }
