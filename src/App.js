@@ -13,7 +13,7 @@ import blouse_banner from './Components/Assets/banner_women.png'
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/ecommerce">
+      <BrowserRouter basename="/fashion-site">
         <Navbar />
         <Routes>
           <Route path='/' element={<Shop/>}/>
