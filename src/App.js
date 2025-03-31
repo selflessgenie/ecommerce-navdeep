@@ -13,17 +13,17 @@ import blouse_banner from './Components/Assets/banner_women.png'
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/ecommerce">
         <Navbar />
         <Routes>
-          <Route path='/ecommerce-navdeep' element={<Shop/>}/>
-          <Route path='/ecommerce-navdeep/saree' element={<ShopCategory banner = {blouse_banner} category = "saree"/>}/>
-          <Route path='/ecommerce-navdeep/blouse' element={<ShopCategory banner = {blouse_banner} category = "blouse"/>}/>
-          <Route path='/ecommerce-navdeep/product' element={<Product/>}>
+          <Route path='/' element={<Shop/>}/>
+          <Route path='/saree' element={<ShopCategory banner = {blouse_banner} category = "saree"/>}/>
+          <Route path='/blouse' element={<ShopCategory banner = {blouse_banner} category = "blouse"/>}/>
+          <Route path='/product' element={<Product/>}>
             <Route path=':productId' element={<Product/>}/>
           </Route>
-          <Route path='/ecommerce-navdeep/cart' element={<Cart/>}/>
-          <Route path='/ecommerce-navdeep/login' element={<LoginSignup/>}/>
+          <Route path='/cart' element={<Cart/>}/>
+          <Route path='/login' element={<LoginSignup/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
